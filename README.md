@@ -14,7 +14,7 @@ This repository contains all assignments of the Selected Topics on Signal Proces
 To run the code, you need to have MATLAB installed on your system. Clone this repository to your local machine and open the MATLAB files in MATLAB. You can run the code and observe the results.
 
 ## Contributors
-This project is maintained by Omar Hani , Omar Wael and Amr Maghraby . If you find any issues or bugs, please feel free to open an issue or create a pull request.
+This project is maintained by Amr ELMaghraby, Omar Wael and Omar Hany . If you find any issues or bugs, please feel free to open an issue or create a pull request.
 
 ## License
 This project is licensed under the MIT license.
