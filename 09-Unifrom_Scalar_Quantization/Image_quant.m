@@ -1,3 +1,5 @@
+%
+clear; close all ; clc;
 % Read in the grayscale image
 data = imread('gray2.jpg'); 
 
@@ -28,7 +30,7 @@ for n = 1:3
       
     
     % Display the quantized image in the subplot
-    subplot(2, 2, 1 + n)   
+    subplot(2, 2, 1+n)   
     imshow(dataq)
     title(['Quantized Image (n=' num2str(n) ')']);
     

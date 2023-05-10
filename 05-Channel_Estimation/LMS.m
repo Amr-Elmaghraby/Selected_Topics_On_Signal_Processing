@@ -11,4 +11,3 @@ for i=1:inner_itr-n_order+1
     W = W + alpha * u_n(i:i+n_order-1) .* e_n;
 end
 end
-

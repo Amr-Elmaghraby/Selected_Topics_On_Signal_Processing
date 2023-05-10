@@ -1,3 +1,5 @@
+% Clear
+clear ; close all ;clc;
 % generate random noise v_n 
 u_n=randn(10500,1);
 u_n=u_n(501:end); 
@@ -40,7 +42,7 @@ Mu_vec=[0.01,0.005,0.0015];
 w_steepest=zeros(n_order,length(Mu_vec));
 J_steepest=zeros(1,length(Mu_vec));
 
-str_mu=["mu=0.01","mu=0.005","mu=0.0015"];
+str_mu=['mu=0.01','mu=0.005','mu=0.0015'];
 figure 
 
 for i=1:length(Mu_vec)
@@ -73,7 +75,7 @@ for i=1:100
 %      d_n =d_n(1:end-9);
      
      
-    W_LMS(:,i)=LMS(u_n,d_n,n_order,10000,0.01);
+    W_LMS(:,i)=LMS(u_n,d_n,n_order,10000,0.001);
     W_avr_LMS=W_avr_LMS+W_LMS(:,i);
     
     
@@ -91,31 +93,5 @@ figure
  stem(w_steepest(:,1),'>','DisplayName','Steepest estimation')
  hold on 
  stem(W_avr_LMS ,'^','DisplayName','LMS estimation')
-  legend() 
+  legend(); 
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
