@@ -2,7 +2,7 @@ tic
 %% Clear
 clear ;  clc;
 %% Read Gray scale image
-dat = imread('gray.jpg');
+dat = imread('gray2.jpg');
 % Convert the image to grayscale
 if size(dat, 3) == 3
     dat = rgb2gray(dat);
@@ -69,7 +69,7 @@ for len=1:length(ki)
         for i= 1:k
             sum= 0; % to sum all blocks per region
             num= 0; % calculate number of blocks per region
-            for j=st:length(blocks);
+            for j=st:length(blocks)
                 meen = mean2(blocks(:,:,j));
                 t1=t1+1;
                 if(meen>=vor(i)&&meen<vor(i+1))
@@ -99,12 +99,12 @@ for len=1:length(ki)
     end
     
     %%
-    z =zeros(1,k);
-    for i =1:k
-        z(i) = mean2(CB(:,:,i));
-    end
-    figure;
-    stem(z);
+% %     z =zeros(1,k);
+% %     for i =1:k
+% %         z(i) = mean2(CB(:,:,i));
+% %     end
+% %     figure;
+% %     stem(z);
     
     %% EXTRACTION
     %NOTE: values to be saved are:  
