@@ -20,20 +20,20 @@ Digital Signal Processing is a vital field that deals with the analysis, manipul
 
 The repository currently covers the following selected topics in Digital Signal Processing:
 
-###Adaptive Filters
+### Adaptive Filters
 - Wiener Filter
 - Steepest Descent Filter
 - LMS Filter
-####Applications
+#### Applications
 - Speech Synthesis
 - Channel Estimation & Equalizer
 - Noise Canceller
-###Lossy Compression Techniques
+### Lossy Compression Techniques
 - Uniform Scalar Quantizer
 - Nonuniform SQ
 - Vector Quantizer
 - Transform Coding
-###Main Project
+### Main Project
 - Audio Processing Techniques
 
 Each topic is accompanied by clear explanations, code implementations in MATLAB, and practical examples to aid in understanding and applying the concepts.
