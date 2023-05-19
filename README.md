@@ -44,9 +44,11 @@ To utilize the resources and code examples provided in this repository, clone th
 
 Feel free to explore the code implementations, experiment with different parameters, and apply the techniques to your own digital signal processing projects. The documentation within each topic folder provides insights into the theory and practical usage of the implemented algorithms.
 
-## Contributing
+## Contributers
 
 - [Amr Elmaghraby](https://github.com/Amr-Elmaghraby)
+- [Omar Hany](https://github.com/es-OmarHani)
+- [Omar Wael](https://github.com/OmarWael22)
 
 ## License
 
